@@ -1,359 +1,198 @@
 <div class="Test">
-  .
+  <h1 class="Test-h1"><a href="https://github.com/4site-interactive-studios/Test-HTML">Test-HTML</a>: UI tests</h1>
+  <h2 class="Test-h2">Heading 2</h2>
+  <h3 class="Test-h3">Heading 3</h3>
+  <h4 class="Test-h3">Heading 4</h4>
+  <h5 class="Test-h5">Heading 5</h5>
+  <h6 class="Test-h6">Heading 3</h6>
 
-  <h1 class="Test-title"><a href="https://github.com/necolas/normalize.css">Normalize.css</a>: UI tests</h1>
-
-  <h2 class="Test-describe"><code>html</code></h2>
-  <h3 class="Test-it">should have a line height of 1.15</h3>
   <div class="Test-run">
     abcdefghijklmnopqrstuvwxyz
   </div>
+  
+  <nav>
+    <code>nav</code>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+  </nav> 
 
-  <h2 class="Test-describe"><code>body</code></h2>
-  <h3 class="Test-it">should have no margin (opinionated)</h3>
-  <div class="Test-run">
-    (there should be no red background visible on this page)
-  </div>
-
-  <h2 class="Test-describe">
-    <code>article</code>, <code>aside</code>, <code>details</code>,
-    <code>figure</code>, <code>figcaption</code>, <code>footer</code>,
-    <code>header</code>, <code>main</code>,
-    <code>menu</code>, <code>nav</code>, <code>section</code>,
-    <code>summary</code>
-  </h2>
-  <h3 class="Test-it">should render as block</h3>
-  <div class="Test-run Test-run--highlightEl">
+  <div>
+    <code>article</code>
     <article>article</article>
+    <code>aside</code>
     <aside>aside</aside>
+    <code>details</code>
     <details>
+      <code>summary</code>
       <summary>summary</summary>
       details
     </details>
+    <code>figure</code>
     <figure>
       figure
       <figcaption>figcaption</figcaption>
     </figure>
+    <code>footer</code>
     <footer>footer</footer>
+    <code>header</code>
     <header>header</header>
+    <code>main</code>
     <main>main</main>
-    <menu><li>menu</li></menu>
-    <nav>nav</nav>
+    <code>section</code>
     <section>section</section>
   </div>
 
-  <h2 class="Test-describe"><code>audio</code>, <code>canvas</code>, <code>progress</code>, <code>video</code></h2>
-  <h3 class="Test-it">should render as inline-block and baseline-aligned</h3>
-  <div class="Test-run Test-run--highlightEl">
-    <audio controls>audio</audio>
-    <canvas>canvas</canvas>
-    <progress>progress</progress>
-    <video controls>video</video>
+  <div id="Test-paragraphs">
+    <code>p</code>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <code>p + strong</code>
+    <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></p>
+    <code>p + em</code>
+    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+    <code>p + em + strong</code>
+    <p><em><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></em></p>
   </div>
 
-  <h2 class="Test-describe"><code>audio:not([controls])</code>, <code>template</code>, <code>[hidden]</code></h2>
-  <h3 class="Test-it">should not display</h3>
-  <div class="Test-run Test-run--highlightEl">
-    <audio>audio</audio>
-    <template>
-      <h1>{{title}}</h1>
-      <content></content>
-    </template>
-    <p hidden>This should be hidden</p>
+  <div>
+    <code>del + ins</code>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
   </div>
 
-  <h2 class="Test-describe"><code>a</code></h2>
-  <h3 class="Test-it">should have a transparent background when active</h3>
-  <div class="Test-run">
-    <a href="#non">dummy anchor</a>
-  </div>
-  <h3 class="Test-it">should not skip underlines</h3>
-  <div class="Test-run">
-    <a href="#non">quip and jig</a>
-  </div>
-  <h3 class="Test-it">should not have a focus outline when both focused and hovered (opinionated)</h3>
-  <div class="Test-run">
-    <a href="#non">dummy anchor</a>
+  <div>
+    <code>textarea</code>
+    <textarea rows="4" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
   </div>
 
-  <h2 class="Test-describe"><code>abbr[title]</code></h2>
-  <h3 class="Test-it">should have a dotted underline with a solid underline as a fallback</h3>
-  <div class="Test-run">
-    <abbr title="abbreviation">abbr</abbr>
+  <code>a</code>
+  <a href="https://loremipsum.io/">I'm a link</a>
+
+  <code>iframe</code>
+  <iframe src="https://placeholder.com/" height="500" width="500"></iframe>
+
+  <code>address</code>
+  <address>
+  Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+  </address>
+
+  <code>2x img in same div</code>
+  <div>
+    <img src="https://via.placeholder.com/350x150"><img src="https://via.placeholder.com/140x100">
+  </div>
+  <code>img in own div</code>
+  <div>
+    <img src="https://via.placeholder.com/350x65"><br>
   </div>
 
-  <h2 class="Test-describe"><code>b</code>, <code>strong</code></h2>
-  <h3 class="Test-it">should have bolder font-weight</h3>
-  <div class="Test-run">
-    <b>b</b>
-    <strong>strong</strong>
-  </div>
+<div>
+  <code>form</code>
+  <form action="/action_page.php">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    <input type="button" name="poke" value="Poke Me!" onclick="msg()"><br>
+    <input type="checkbox" name="checkTest" value="Check">Check Me!<br>
+    Select your favorite color: <input type="color" name="favcolor" value="#ff0000"><br>
+    Birthday: <input type="date" name="bday"><br>
+    File: <input type="file" name="myFile"><br>
+    Password: <input type="password" name="pwd">
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+    Telephone: <input type="tel" name="usrtel">
+    Url Input: <input type="url" name="homepage">
+    Standard Submit: <input type="submit" value="Submit">
+    Image Submit: <input type="image" src="https://via.placeholder.com/50x30" alt="Submit">
+    <input type="hidden" id="hiddenTest" name="hiddenTest" value="3487">
+  </form>
+</div>
 
-  <h2 class="Test-describe"><code>dfn</code></h2>
-  <h3 class="Test-it">should have italic font-style</h3>
-  <div class="Test-run">
-    <dfn>dfn</dfn>
-  </div>
+<div>
+  <code>datalist</code>
+  <input list="browsers">
 
-  <h2 class="Test-describe"><code>h1</code></h2>
-  <h3 class="Test-it">should not change size within an <code>article</code></h3>
-  <div class="Test-run">
-    <h1>Heading (control)</h1>
-    <article>
-      <h1>Heading (in article)</h1>
-    </article>
-  </div>
-  <h3 class="Test-it">should not change size within a <code>section</code></h3>
-  <div class="Test-run">
-    <h1>Heading (control)</h1>
-    <section>
-      <h1>Heading (in section)</h1>
-    </section>
-  </div>
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</div>
 
-  <h2 class="Test-describe"><code>mark</code></h2>
-  <h3 class="Test-it">should have a yellow background</h3>
-  <div class="Test-run">
-    <mark>mark</mark>
-  </div>
-
-  <h2 class="Test-describe"><code>small</code></h2>
-  <h3 class="Test-it">should render equally small in all browsers</h3>
-  <div class="Test-run">
-    control. <small>small.</small>
-  </div>
-
-  <h2 class="Test-describe"><code>sub</code> and <code>sup</code></h2>
-  <h3 class="Test-it">should not affect a line's visual line-height</h3>
-  <div class="Test-run Test-run--highlightEl">
-    <p>control.</p>
-    <p>control. <sub>sub.</sub></p>
-    <p>control. <sup>sup.</sup></p>
-  </div>
-
-  <h2 class="Test-describe"><code>img</code></h2>
-  <h3 class="Test-it">should not have a border when wrapped in an anchor</h3>
-  <div class="Test-run">
-    <a href="#non">
-      <!-- scaled-up 1px image -->
-      <img style="background-color:#ADD8E6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="100" height="100">
-    </a>
-  </div>
-
-  <h2 class="Test-describe"><code>svg</code></h2>
-  <h3 class="Test-it">should not overflow</h3>
-  <div class="Test-run Test-run--highlightEl">
-    <svg width="100px" height="100px">
-      <circle cx="100" cy="100" r="100" fill="#ADD8E6" />
-    </svg>
-  </div>
-
-  <h2 class="Test-describe"><code>code</code>, <code>kbd</code>, <code>pre</code>, <code>samp</code></h2>
-  <h3 class="Test-it">should render text at the same absolute size as normal text</h3>
-  <div class="Test-run">
-    <span>span: abcdefghijklmnopqrstuvwxyz.</span><br>
-    <code>code: abcdefghijklmnopqrstuvwxyz.</code><br>
-    <kbd>kbd: abcdefghijklmnopqrstuvwxyz.</kbd><br>
-    <samp>samp: abcdefghijklmnopqrstuvwxyz.</samp>
-    <pre>pre: abcdefghijklmnopqrstuvwxyz.</pre>
-  </div>
-
-  <h2 class="Test-describe"><code>figure</code></h2>
-  <h3 class="Test-it">should have margins</h3>
-  <div class="Test-run" style="outline:1px solid #ADD8E6; overflow:hidden;">
-    <figure>
-      <img style="background-color:#ADD8E6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="400" height="200">
-    </figure>
-  </div>
-
-  <h2 class="Test-describe"><code>hr</code></h2>
-  <h3 class="Test-it">should have a <code>content-box</code> box model</h3>
-  <div class="Test-run" style="">
-    <hr style="height:2px; border:solid #ADD8E6; border-width:2px 0;">
-  </div>
-
-  <h2 class="Test-describe"><code>button</code>, <code>input</code>, <code>optgroup</code>, <code>select</code>, <code>textarea</code></h2>
-  <h3 class="Test-it">should inherit <code>font-size</code> from ancestor</h3>
-  <div class="Test-run" style="font-size: 20px;">
-    <button>button</button><br>
-    <input value="input"><br>
-    <select style="border:1px solid #999;">
-      <optgroup label="optgroup">
-        <option>option</option>
-      </optgroup>
-      <option>option</option>
-    </select><br>
-    <textarea>textarea</textarea>
-  </div>
-  <h3 class="Test-it">should not have margins</h3>
-  <div class="Test-run" id="form-collection-margins">
-    <style>
-      #form-collection-margins {
-        outline: 1px solid #ADD8E6;
-        overflow: hidden;
-      }
-
-      #form-collection-margins button,
-      #form-collection-margins input,
-      #form-collection-margins select,
-      #form-collection-margins textarea {
-        display: block;
-      }
-    </style>
-    <button>button</button>
-    <input value="input">
-    <select style="border:1px solid #999;">
-      <optgroup label="optgroup">
-        <option>option</option>
-      </optgroup>
-      <option>option</option>
-    </select>
-    <textarea>textarea</textarea>
-  </div>
-
-  <h2 class="Test-describe"><code>button</code></h2>
-  <h3 class="Test-it">should have visible overflow</h3>
-  <div class="Test-run" id="button-overflow">
-    <style>
-      #button-overflow button:after {
-        content: "";
-        background: #ADD8E6;
-        display: inline-block;
-        height: 10px;
-        position:relative;
-        right: -20px;
-        width: 10px;
-      }
-    </style>
-    <button>abcdefghijklmnopqrstuvwxyz</button>
-  </div>
-
-  <h2 class="Test-describe"><code>button</code>, <code>select</code></h2>
-  <h3 class="Test-it">should not inherit <code>text-transform</code></h3>
-  <div class="Test-run" style="text-transform:uppercase">
-    <button>button</button>
-    <select><option>option</option></select>
-  </div>
-
-  <h2 class="Test-describe"><code>button</code> and button-style <code>input</code></h2>
-  <h3 class="Test-it">should be styleable</h3>
-  <div class="Test-run" id="button-like-style">
-    <style>
-      #button-like-style button,
-      #button-like-style input {
-        background: #ADD8E6;
-        border: 2px solid black;
-        border-radius: 2px;
-        padding: 5px;
-      }
-    </style>
-    <p><button>button</button></p>
-    <p><input type="image" src="//placehold.it/90x24" alt="input (image)"></p>
-    <p><input type="button" value="input (button)"></p>
-    <p><input type="file" value="input (file)"></p>
-    <p><input type="reset" value="input (reset)"></p>
-    <p><input type="submit" value="input (submit)"></p>
-  </div>
-
-  <h2 class="Test-describe">disabled <code>button</code> and <code>input</code></h2>
-  <h3 class="Test-it">should have <code>default</code> cursor style</h3>
-  <div class="Test-run">
-    <p><button disabled>button</button></p>
-    <p><input disabled type="button" value="input (button)"></p>
-    <p><input disabled type="reset" value="input (reset)"></p>
-    <p><input disabled type="submit" value="input (submit)"></p>
-  </div>
-
-  <h2 class="Test-describe"><code>button</code>, <code>input</code></h2>
-  <h3 class="Test-it">should not have extra inner padding in Firefox</h3>
-  <div class="Test-run" id="button-input-padding">
-    <style>
-      #button-input-padding button,
-      #button-input-padding input {
-        border: 0;
-        padding: 0;
-        outline: 1px solid #ADD8E6;
-      }
-    </style>
-    <p><button>button</button></p>
-    <p><input type="button" value="input (button)"></p>
-    <p><input type="reset" value="input (reset)"></p>
-    <p><input type="submit" value="input (submit)"></p>
-  </div>
-
-  <h2 class="Test-describe"><code>fieldset</code></h2>
-  <h3 class="Test-it">should have consistent border, padding, and margin</h3>
-  <div class="Test-run">
+<div>
+  <code>form + fieldset</code>
+  <form>
     <fieldset>
-      <div style="width:100%; height:100px; background:#ADD8E6;"></div>
+      <legend>Personalia:</legend>
+      Name: <input type="text" size="30"><br>
+      Email: <input type="text" size="30"><br>
+      Date of birth: <input type="text" size="10">
     </fieldset>
-  </div>
+  </form>
+</div>
 
-  <h2 class="Test-describe"><code>legend</code></h2>
-  <h3 class="Test-it">should inherit color</h3>
-  <div class="Test-run" style="color:#ADD8E6;">
-    <fieldset>
-      <legend>legend</legend>
-    </fieldset>
-  </div>
-  <h3 class="Test-it">should not have padding</h3>
-  <div class="Test-run">
-    <fieldset>
-      <legend>legend</legend>
-    </fieldset>
-  </div>
-  <h3 class="Test-it">should wrap text</h3>
-  <div class="Test-run">
-    <fieldset>
-      <legend>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et me.</legend>
-    </fieldset>
-  </div>
+<div>
+  <code>ol</code>
+  <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+</div>
 
-  <h2 class="Test-describe"><code>textarea</code></h2>
-  <h3 class="Test-it">should not have a scrollbar unless overflowing</h3>
-  <div class="Test-run">
-    <textarea>textarea</textarea>
-  </div>
+<div>
+  <code>ul</code>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+</div>
 
-  <h2 class="Test-describe"><code>[type="checkbox"]</code>, <code>[type="radio"]</code></h2>
-  <h3 class="Test-it">should have a <code>border-box</code> box model</h3>
-  <div class="Test-run Test-run--highlightEl" id="radio-box-model">
-    <style>
-      #radio-box-model {
-        width: 200px;
-        border: 1px solid red;
-      }
+<div>
+  <code>dl</code>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+</div>
 
-      #radio-box-model input {
-        width: 100%;
-        border: 5px solid #ADD8E6;
-        display: block;
-        position: relative;
-      }
-    </style>
-    <input type="checkbox">
-    <input type="radio" name="rad">
-  </div>
-  <h3 class="Test-it">should not have padding</h3>
-  <div class="Test-run Test-run--highlightEl">
-    <input type="checkbox">
-    <input type="radio" name="rad">
-  </div>
+<div>
+  <code>select</code>
+  <select>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+<div>
 
-  <h2 class="Test-describe"><code>[type="number"]</code></h2>
-  <h3 class="Test-it">should display a default cursor for the decrement button's click target in Chrome</h3>
-  <div class="Test-run">
-    <input style="height:50px; font-size:15px;" type="number" id="in" min="0" max="10" value="5">
-  </div>
+<div>
+  <code>optgroup select</code>
+  <select>
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+<div>
 
-  <h2 class="Test-describe"><code>[type="search"]</code></h2>
-  <h3 class="Test-it">should be styleable</h3>
-  <div class="Test-run">
-    <input type="search" style="border:1px solid #ADD8E6; padding:10px; width:200px;">
-  </div>
-  <h3 class="Test-it">should reference inherited color</h3>
-  <div class="Test-run">
-    <input type="text" placeholder="Text goes here" style="background-color: black; color: orange;">
-  </div>
-
+<div>
+  <code>video</code>
+  <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
 </div>
